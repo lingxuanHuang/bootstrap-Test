@@ -1,0 +1,41 @@
+
+html ,body{ height:100%;  font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;}
+body{background: #ebebeb; }
+ol,ul{ margin-bottom: 0;padding:0;}
+::selection {  color: #ffffff;  background: #f4645f;  text-shadow: none;}
+a, a:hover,a:focus{ text-decoration: none;color: #f4645f; cursor: pointer;}
+li:hover{ text-decoration: none;}
+header{   padding-top: 70px;padding-bottom: 60px; background: url(http://image.golaravel.com/5/c9/44e1c4e50d55159c65da6a41bc07e.jpg); background-size: cover;}
+header .container h1{font-family: inherit;  font-size: 3em; color:#FFF;}
+header .container .row{ text-align: center;}
+/*header上btn-blank的响应式*/
+@media  only screen and (max-width: 768px){
+	header .container .row .btn-blank{ width:50%; margin:10px auto auto auto;}
+}
+header .container .row .btn-blank{position: relative; top: 40px; }
+nav{ background: #FFF; margin-bottom: 35px;}
+nav ul{  list-style: none; text-align: center;}
+nav ul li{   display: inline-block;}
+nav ul li  a{ display: block; line-height: 4em;  padding: 0 21px;  color: #505050;}
+.menu li.navSelect{  border-bottom: 2px solid #f4645f;}
+nav .navbar-header{ text-align: center; }
+nav .navbar-header .navbar-toggle{ float: none; margin:0px;}
+nav .navbar-header .glyphicon  {color: #000; font-size: 24px; margin: 10px;}
+@media  only screen and (max-width: 768px){
+	nav ul li{ text-align: left; width:100%;}
+}
+section{  background: #ebebeb;}
+section .container div[class^="col-"]{ padding: 0 15px;}
+section .container main article {background: #FFF;  padding:35px;margin-bottom: 35px;}
+section .container main article h2{ text-align: center;}
+section .container main article .artMain img{ width:100%;}
+section .container main article .artMain p{ margin:30px 0 ;font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif; text-indent: 2em;}
+section .container aside .widget{  background: #ffffff;  padding: 21px 30px;margin-bottom: 35px;}
+section .container aside .widget .title{ position: relative; font-size: 1.5em; padding-bottom:7px; margin-bottom: 21px;  border-bottom: 1px solid #ebebeb;}
+section .container aside .widget .title:after {  content: "";  width: 90px;  height: 1px;  background: #f4645f;  position: absolute;  left: 0;  bottom: -1px;}
+section .meta{ text-align: center;  color: #959595;  margin: 0px 7px;  white-space: nowrap;}
+section .artMain{margin-top: 30px;  overflow: hidden;}
+section .artMain p{ word-break:break-all; word-wrap:break-word;}
+section .widget .content .btn-BG-red{display:block; width:100%;}
+section .artFooter {  border-bottom: 1px solid #ebebeb;}
+section .artFooter a{margin-bottom: 30px;  }

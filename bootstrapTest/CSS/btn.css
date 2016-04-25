@@ -1,0 +1,7 @@
+
+.btn{transition: all 0.2s ease;border-radius: 0;  overflow: hidden;  white-space: nowrap;  text-overflow: ellipsis;}
+.btn-blank{  color: #ffffff; border-radius: 0; border: 1px solid #f1362f;}
+.btn-BG-red{background: #f4645f; border: 1px solid #f4645f; }
+.btn-blank:hover,.btn-blank:focus{  color: #ffffff; border: 1px solid #303030;  background: #303030; }
+.btn-red{ display: inline-block; color: #959595; line-height: 1.5em; border: 1px solid #ebebeb;margin: 0 7px 7px 0;  }
+.btn-red:hover,.btn-red:focus{  color: #ffffff;  background: #f4645f;  border: 1px solid #f4645f; }

@@ -1,0 +1,55 @@
+.top-wrap{  padding: 0;height:50px;background-color: #f4726d;}
+.top-wrap .logo{ float:left;width:60px;height: 40px;    margin-top: 5px; background: url(http://wenda.golaravel.com/static/css/default/logo/Laravel-Four-Revised-Slant.png) top center no-repeat;background-size: auto 40px;}
+.top-wrap .search {  float: left; width:260px;  margin: 0 10px;}
+.top-wrap .input-group {width: 260px; margin-top:8px;}
+.top-wrap .input-group .glyphicon{ cursor:pointer;top: 0;  background: #FFF;  border: 0;}
+.top-wrap .input-group .form-control{ border:0px; box-shadow: none;}
+.top-wrap .nav{float: left; line-height: 50px;}
+.top-wrap .nav ul{ list-style: none; color: #FFF;}
+.top-wrap .navbar-collapse a{ float:left;font-size: 16px; padding: 0 10px; cursor: pointer;}
+.top-wrap .navbar-collapse a:hover{background-color: #f8a09c;}
+.top-wrap .nav  .navbar-collapse{ float:left; padding: 0; width:166px;}
+.top-wrap  span.pull-right{line-height: 50px;}
+.top-wrap .nav .glyphicon { cursor:pointer;  font-size: 16px;  color: #FFF;}
+.top-wrap .nav .navbar-toggle{  height:50px;padding: 0px;  margin: 0px;border:0;}
+.top-wrap a, .top-wrap a:hover,.top-wrap a:focus{ color: #FFF; }
+@media only screen and (max-width: 768px) {
+	.top-wrap .nav  .navbar-collapse{    position: absolute;  left: -15px;  background-color: #f4726d;  top: 50px;  width: 100px;  z-index: 99;}
+}
+section { margin-top: 30px; }
+
+section .row{ position: relative; background: #FFF;border-radius: 4px;border: solid 1px #e6e6e6;   padding-bottom: 50px;}
+section .row main{ min-height:100%;  padding:0 0 80px;  }
+main .tab{height: 62px;border-bottom:solid 1px #e6e6e6;  padding: 0 15px;}
+main .tab h1{float: left; font-size: 20px; color:#333;}
+main .tab ul {list-style: none; float: right}
+main .tab ul li{ padding:0 5px;float: left; line-height: 30px; margin-top: 30px; cursor: pointer;}
+main .tab ul li:hover{ border-bottom: solid 2px #f4726d;}
+main .memuList{  padding: 0 20px;}
+main .memuList .memuDetail{ position: relative; list-style: none;padding: 15px;  border-bottom:solid 1px #f1f1f1;}
+main .memuList .memuDetail .content,aside .mod  dd{  color: #999;}
+main .memuList .memuDetail .content h4{  margin: 0;}
+main .memuList .memuDetail .personalLink{ display: block;   float: left; width: 40px;  height: 40px;    text-align: center;  margin-right: 10px; border-radius: 5px;  overflow: hidden;   background-color: #e1e1e1;}
+main .memuList .memuDetail .personalLink .glyphicon {  font-size: 34px;  color: #FFF;  top: 4px;}
+main .memuList .memuDetail .contribute {position: absolute; top:5px; right:15px; font-size:12px;color: #999;  margin-top: 8px;}
+main .memuList .memuDetail .contribute>:first-child {text-align: right;  margin-right: 5px;}
+main .memuList .memuDetail .contribute  .personalLink{width: 24px;  height: 24px;  border-radius: 100px;margin-right: 4px;}
+main .memuList .memuDetail .contribute  .personalLink .glyphicon {  font-size: 16px;}
+main nav{   position: absolute;  width: 100%;  bottom: 0px;  margin: 0px;text-align: center;}
+.pagination>li>a, .pagination>li>span{  color: #999;background-color: #fafafa;   border-color: #e6e6e6;}
+aside .mod h3{font-size: 1.4rem; line-height: 1.7rem;}
+aside .mod{ padding-bottom: 20px;  border-bottom: 1px solid #E2E2E2;}
+aside .mod dl{margin-bottom: 5px;}
+aside .mod dt{width:32px; height:32px; text-align: center; background-color: #e1e1e1;  border-radius: 4px; margin: 4px 10px 0 0;}
+aside .mod  dt.topic i{ font-size: 22px; color: #FFF; margin-top: 5px;}
+
+aside .mod .mod-head a{  color: #333;}
+
+/*针对topic*/
+main .tab  h1 i.topicGly{  color: #FFF;  padding: 3px;  border-radius: 2px;background-color: #e1e1e1;}
+
+.topicMain .memuDetail{float: left; width:50%;}
+.topicMain .content p{ margin-top: 10px; line-height: 20px; font-size: 12px; }
+.topicMain .memuDetail .personalDiv{float:left;width:50px;}
+
+aside .mod-body.mod_label  a{   float: left;  margin: 0 10px 10px 0;}

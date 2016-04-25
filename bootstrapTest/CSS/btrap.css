@@ -1,0 +1,5 @@
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{background-color: #f4645f;  border-color: #f4645f;}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{ color:#666;}
+p{margin:0;}
+.label{  padding: .2em .6em .2em; border-radius: 0; font-weight: normal;}
+.label-info{background-color:#99cfff;}
